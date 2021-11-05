@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;        
+}
+.game {
+    display: flex;
+    
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.faces {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-bottom: 0;
+    top: 74px;
+    right: 5%;
+}
+.faces img {
+  margin-bottom: 24px;
+  width: 15%;
+}
+
+
+
